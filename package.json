@@ -1,0 +1,23 @@
+{
+  "name": "webpack-parser-fail-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-good": "webpack --config ./webpack.config.good.js",
+    "build-bad": "webpack --config ./webpack.config.bad.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonPenton/webpack-parser-fail-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonPenton/webpack-parser-fail-demo/issues"
+  },
+  "homepage": "https://github.com/RonPenton/webpack-parser-fail-demo#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}
